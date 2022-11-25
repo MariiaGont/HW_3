@@ -44,6 +44,7 @@ void Task21_1 ()
 
 void Zadacha21_2()
 {
+    Console.WriteLine("Программа принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.");
     Console.WriteLine("Введите координаты точки А через пробел:");
     string pointA = Console.ReadLine();
     Console.WriteLine("Введите координаты точки В через пробел:");
