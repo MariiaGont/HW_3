@@ -3,7 +3,7 @@
 
 void Task19()
 {
-    Console.WriteLine("Программа принимает на вход ятизначное число и проверяет, является ли оно палиндромом.");
+    Console.WriteLine("Программа принимает на вход пятизначное число и проверяет, является ли оно палиндромом.");
     Console.WriteLine("Введите число: ");
     string number = Console.ReadLine();
     int length = number.Length;
@@ -38,7 +38,6 @@ void Task21_1 ()
     Console.Write("z2 = ");
     double z2 = Convert.ToInt32(Console.ReadLine());
 
-    // √ (x2-x1)^2)+ (y2-y1)^2+ (z2-z1)^2
     Console.WriteLine("Расстояни между точками = " + Math.Round(Math.Sqrt(Math.Pow(x2 - x1, 2) 
                                                     + Math.Pow(y2 - y1, 2) + Math.Pow(z2 - z1, 2)), 2));
 }
@@ -57,7 +56,7 @@ void Zadacha21_2()
                     + Math.Pow(Convert.ToInt32(pointASplit[1]) - Convert.ToInt32(pointBSplit[1]), 2) 
                     + Math.Pow(Convert.ToInt32(pointASplit[2]) - Convert.ToInt32(pointBSplit[2]), 2)), 2);
 
-    Console.WriteLine(distance);
+    Console.WriteLine($"Расстояни между точками = {distance}.");
 }
 
 // Задача 23. Напишите программу, которая принимает на вход число (N) 
